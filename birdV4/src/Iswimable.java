@@ -1,0 +1,3 @@
+interface Iswimable {
+    void swim();
+}
