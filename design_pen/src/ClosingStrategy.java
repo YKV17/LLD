@@ -1,0 +1,5 @@
+interface ClosingStrategy {
+
+    void close();
+
+}
