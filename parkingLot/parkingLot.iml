@@ -3,11 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/birdV0/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/birdV1/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/birdV2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/birdV4/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/design_pen/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
