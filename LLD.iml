@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/birdV4/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/design_pen/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tic_tac_toe/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
