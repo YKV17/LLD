@@ -9,7 +9,7 @@ import model.ParkingSpot;
 
 import java.util.Optional;
 
-public class RandomSpotAssignmentStrategy implements SpotAssignmentStrategy{
+public class RandomSpotAssignmentStrategy implements ISpotAssignmentStrategy {
     @Override
     public Optional<ParkingSpot> findParkingSpot(VehicleType vehicleType, ParkingLot parkingLot, Gate gate) {
 

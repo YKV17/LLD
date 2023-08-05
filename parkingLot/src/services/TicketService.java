@@ -6,7 +6,7 @@ import exceptions.NoAvailableParkingSpot;
 import exceptions.NoParkingLotException;
 import model.*;
 import repositories.*;
-import strategies.spotAssignmentStrategy.SpotAssignmentStrategy;
+import strategies.spotAssignmentStrategy.ISpotAssignmentStrategy;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
@@ -16,12 +16,12 @@ public class TicketService {
     private IGateRepository gateRepository;
     private IVehicleRepository vehicleRepository;
     private ITicketRepository ticketRepository;
-    private SpotAssignmentStrategy spotAssignmentStrategy;
+    private ISpotAssignmentStrategy spotAssignmentStrategy;
     private IParkingLotRepository parkingLotRepository;
 
     public TicketService(IGateRepository gateRepository,
                          IVehicleRepository vehicleRepository,
-                         SpotAssignmentStrategy spotAssignmentStrategy,
+                         ISpotAssignmentStrategy spotAssignmentStrategy,
                          ITicketRepository ticketRepository,
                          IParkingLotRepository parkingLotRepository) {
         this.gateRepository = gateRepository;
